@@ -10,13 +10,14 @@ body {
   justify-content: center;
   height: 100vh;
   overflow: hidden;
+  margin: 0;
 }
 .container {
   display: flex;
   width: 90vw;
 }
 .panel {
-  background-size: auto 100%;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 80vh;
