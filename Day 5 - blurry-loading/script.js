@@ -1,20 +1,13 @@
-/* eslint-disable linebreak-style */
 /* eslint-disable implicit-arrow-linebreak */
-/* eslint-disable linebreak-style */
-/* eslint-disable max-len */
-/* eslint-disable linebreak-style */
 /* eslint-disable camelcase */
-/* eslint-disable linebreak-style */
-/* eslint-disable prefer-const */
 /* eslint-disable no-use-before-define */
-/* eslint-disable linebreak-style */
-/* eslint-disable no-unused-vars */
-/* eslint-disable linebreak-style */
+/* eslint-disable no-multiple-empty-lines */
+
 const loadText = document.querySelector('.loading-text');
 const bg = document.querySelector('.bg');
 
 let load = 0;
-let int = setInterval(blurring, 30);
+const int = setInterval(blurring, 30);
 
 function blurring() {
   load += 1;
